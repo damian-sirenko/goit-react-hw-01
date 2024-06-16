@@ -1,0 +1,75 @@
+th,
+td {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+thead,
+tbody,
+tr,
+th,
+td {
+  border: none;
+}
+
+.tableWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  border-collapse: collapse;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #292929;
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  background-color: #292929;
+  color: #f0f0f0;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.headRow {
+  border: 1px solid #292929;
+}
+
+.tableBody {
+  display: table-row-group;
+}
+
+.bodyRow:nth-child(even) {
+  background-color: #d2d1d1;
+}
+
+.bodyRow {
+}
+
+.typeCell {
+  text-align: left;
+  border: 1px solid #292929;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0 15px;
+  vertical-align: middle;
+}
+
+.amountCell {
+  text-align: center;
+  border: 1px solid #292929;
+  font-size: 18px;
+  padding: 5px 0 5px 0;
+}
+.currencyCell {
+  text-align: center;
+  border: 1px solid #292929;
+  font-size: 18px;
+  padding: 5px 0 5px 0;
+}
