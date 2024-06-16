@@ -1,0 +1,80 @@
+.container {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 20px;
+  max-width: 450px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.image {
+  border-radius: 50%;
+  background-color: #292929;
+  margin: 0 auto;
+  display: block;
+  width: 170px;
+  height: 170px;
+}
+
+.profileName {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.profileTag {
+  font-size: 28px;
+  color: #7b7b7b;
+  margin-bottom: 20px;
+}
+
+.profileLocation {
+  font-size: 28px;
+  color: #7b7b7b;
+  margin-top: 0;
+}
+
+.statsList {
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  list-style: none;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: calc((100% - 2px) / 3);
+  padding: 30px 20px;
+  background-color: #d8d8d8;
+  border-top: 2px solid #7b7b7b;
+  border-right: 2px solid #7b7b7b;
+}
+
+.indexName {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.indexValue {
+  font-size: 24px;
+  font-weight: 600;
+}
